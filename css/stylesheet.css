@@ -1,0 +1,115 @@
+/*!
+ * Start Bootstrap - One Page Wonder (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+header {
+    margin-bottom: 100px;
+}
+header.masthead {
+  background: url(../img/header.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header.masthead>.overlay {
+  padding: 5rem 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+}
+header.masthead>.overlay h1 {
+  padding-bottom: 3rem;
+  font-family: 'Bree Serif', serif;
+  text-shadow: 4px 4px 6px #000000;
+}
+
+@media (min-width: 992px) {
+  header.masthead>.overlay {
+    padding: 15rem 0;
+  }
+}
+@font-face {
+    font-family: Dyslexie;
+    src: url(Dyslexie_Regular.ttf);
+}
+p {
+  font-size: 1.15rem;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+p.change {
+    font-size: 0.85rem;
+    font-family: 'Dyslexie';
+    
+}
+nav img#icon{
+    width: 40px;
+    height: 40px;
+    margin-right: .75rem;
+}
+nav a.navbar-brand {
+    font-size: 1.5rem;
+}
+nav a.nav-link {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+section h2#banner-text {
+    margin-bottom: 1em;
+}
+section img.rounded-circle {
+    width: 444px;
+    height: 444px;
+}
+footer a {
+    font-size: 1.25rem;
+    text-align: center;
+}
+div#myModal {
+    margin-top: 6rem;
+}
+div.modal-body {
+    padding: 1rem 5rem;
+}
+div#font-alert {
+    margin-top: 4.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    z-index: 999 !important;
+    color: black;
+}
+div.card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2.5rem;
+}
+button#font-change {
+   margin-left: 1rem;
+}
+div#form {
+    font-size: 1.25rem;
+}
+div#form p {
+    font-size: 1.25rem;
+}
+div#infoText {
+    margin-left: 5rem;
+}
+div small {
+    font-size: 1rem;
+}
+img#icon2 {
+    width: 100px;
+    height: 100px;
+}
